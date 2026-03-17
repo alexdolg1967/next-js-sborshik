@@ -1,8 +1,14 @@
+import { Button } from "@/components/ui/button";
+import { TypographyH1 } from "@/components/ui/typography-h1";
+
 export default function Home() {
   return (
     <div>
       <main>
-        Hello World!
+        <TypographyH1>
+          Hello World!
+        </TypographyH1>
+        <Button variant="secondary">Button</Button>
       </main>
     </div>
   );
