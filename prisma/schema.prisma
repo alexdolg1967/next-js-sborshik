@@ -30,7 +30,7 @@ model Component {
   name  String
   price Int
 
-  socket String
+  socket String?
 
   buildComponent BuildComponent[]
 }
